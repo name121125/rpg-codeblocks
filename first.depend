@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1698765521 source:c:\users\user\documents\game develop\sfml project\first\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+
+1696660836 
+
+1698765521 source:/media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+
