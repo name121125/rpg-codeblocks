@@ -5,12 +5,22 @@
 #include <SFML/Graphics/Font.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
-#include "game.cpp"
+
 
 
 class Game {
 	private:
-		//window
+
+
+	public:
+		Game();
+		virtual ~Game() ;
+		void initSubjects();
+		void update();
+		void render();
+
+		void pollEvents();
+        //window
 		sf::RenderWindow* window;
 		sf::Event event;
 		void initvariables();
@@ -24,16 +34,6 @@ class Game {
 		sf::Font font;
 		sf::Text text;
 
-	public:
-		Game();
-		virtual ~Game();
-		void initSubjects();
-		void update();
-		void render();
-
-		void pollEvents();
-
-
 
 
 
@@ -42,5 +42,5 @@ class Game {
 
 
 };
-
 #endif
+

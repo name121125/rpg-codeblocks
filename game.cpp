@@ -52,7 +52,7 @@ void Game::pollEvents() {
     this->window->clear();
     while (this->window->isOpen())
     {
-        //game->;
+
 
 
 
@@ -87,11 +87,11 @@ void Game::pollEvents() {
 
 
         }
-        text.setString("Hello World");
+        this->text.setString("Hello World");
         this->window->draw(background);
-        this->window->draw(subject);
+        //this->window->draw(subject);
 
-        this->window->draw(text);
+        //this->window->draw(text);
         this->window->display();
     }
 }
