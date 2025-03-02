@@ -2,13 +2,13 @@
 
 
 void Game::initvariables() {
-    this->window = nullptr;
+    this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "Game");
 
 }
 
 void Game::initWindow() {
-    this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "Game");
-    this->window->setFramerateLimit(60);
+
+    this->window->setFramerateLimit(30);
 }
 
 void Game::initSubjects() {
@@ -56,16 +56,15 @@ void Game::pollEvents() {
 
 
 
-
-
-
         while (this->event.type)
         {
             if (event.type == sf::Event::Closed)
             {
                 this->window->close();
             }
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+
+        }
+         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
             {
                 this->subject->move(1.0f, 0.0f);
             }
@@ -85,20 +84,24 @@ void Game::pollEvents() {
                 background.move(0.0f, -1.0f);
             }
 
-
-        }
         this->text.setString("Hello World");
         this->window->draw(background);
-        //this->window->draw(subject);
 
-        //this->window->draw(text);
         this->window->display();
     }
 }
 
+void Game::updatesub() {
+    //this->window->draw(subject);
+}
+
+void Game::updatetext() {
+    this->window->draw(text);
+}
+
 void Game::update() {
     this->pollEvents();
-
+    this->updatesub();
 }
 
 void Game::render() {

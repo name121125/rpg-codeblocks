@@ -25,6 +25,8 @@ class Game {
 		sf::Event event;
 		void initvariables();
 		void initWindow();
+		void updatesub();
+		void updatetext();
 		//game subjects
 		sf::Texture backtex;
 		sf::Sprite background;

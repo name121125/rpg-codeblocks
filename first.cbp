@@ -34,6 +34,8 @@
 		<Unit filename="game.cpp" />
 		<Unit filename="game.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="subject.hpp" />
+		<Unit filename="subjuct.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

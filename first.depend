@@ -1,18 +1,22 @@
 # depslib dependency file v1.0
-1700891886 source:c:\users\user\documents\game develop\sfml project\first\main.cpp
+1706513211 source:c:\users\user\documents\game develop\sfml project\first\main.cpp
 	"game.hpp"
+	<cstdlib>
+	<ctime>
+	<iostream>
 
 1696660836 
 
-1700823815 source:/media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/main.cpp
+1700893773 source:/media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/main.cpp
 	<SFML/Graphics.hpp>
 	<iostream>
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<iostream>
 	"game.hpp"
+	"game.hpp"
 
-1700888850 c:\users\user\documents\game develop\sfml project\first\game.hpp
+1701316629 c:\users\user\documents\game develop\sfml project\first\game.hpp
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/Font.hpp>
 	<SFML/Audio.hpp>
@@ -20,7 +24,11 @@
 
 1699884720 c:\users\user\documents\game develop\sfml project\first\game.cpp
 
-1700823837 /media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/game.hpp
+1700888850 /media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
 	<SFML/Graphics.hpp>
 	<SFML/Graphics/Font.hpp>
 	<SFML/Audio.hpp>
@@ -29,6 +37,31 @@
 1699887704 /media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/game.cpp
 	"game.hpp"
 
-1700891171 source:c:\users\user\documents\game develop\sfml project\first\game.cpp
+1701349976 source:c:\users\user\documents\game develop\sfml project\first\game.cpp
 	"game.hpp"
+
+1700891171 source:/media/boris5581/341E9FCD1E9F8690/Users/User/Documents/game develop/Sfml project/first/game.cpp
+	"game.hpp"
+
+1701315131 source:c:\users\user\documents\game develop\sfml project\first\main2.cpp
+	"game.hpp"
+
+1701346762 source:c:\users\user\documents\game develop\sfml project\first\subjuct.cpp
+
+1701349978 source:c:\users\user\documents\first\game.cpp
+	"game.hpp"
+
+1701316630 c:\users\user\documents\first\game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+
+1706802026 source:c:\users\user\documents\first\main.cpp
+	"game.hpp"
+	<cstdlib>
+	<ctime>
+	<iostream>
+
+1701346764 source:c:\users\user\documents\first\subjuct.cpp
 
